@@ -2,7 +2,6 @@
   "name": "vue-spa",
   "version": "1.0.0",
   "description": "A simple, single page application built using Vue.js",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS/issues"
   },
-  "homepage": "https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS#readme"
+  "homepage": "https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS#readme",
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
 }
