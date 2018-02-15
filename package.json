@@ -28,6 +28,8 @@
     "vue": "^2.5.13"
   },
   "devDependencies": {
-    "webpack": "^3.11.0"
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-hot-middleware": "^2.21.0"
   }
 }
