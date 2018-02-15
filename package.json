@@ -3,25 +3,23 @@
   "version": "1.0.0",
   "description": "A simple, single page application built using Vue.js",
   "scripts": {
+    "start": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS.git"
+    "url":
+      "git+https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS.git"
   },
-  "keywords": [
-    "Vue.js",
-    "SPA",
-    "single",
-    "page",
-    "application"
-  ],
+  "keywords": ["Vue.js", "SPA", "single", "page", "application"],
   "author": "Kevin J Donohue",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS/issues"
+    "url":
+      "https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS/issues"
   },
-  "homepage": "https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS#readme",
+  "homepage":
+    "https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS#readme",
   "dependencies": {
     "express": "^4.16.2",
     "vue": "^2.5.13"
