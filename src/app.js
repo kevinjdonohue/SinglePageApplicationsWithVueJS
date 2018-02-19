@@ -1,11 +1,9 @@
 /* eslint-disable import/prefer-default-export */
 import Vue from 'vue';
+import AppLayout from './theme/Layout.vue';
 
 const app = new Vue({
-  data: {
-    hello: 'hi there?',
-  },
-  template: '<div id="app">{{ hello }}</div>',
+  render: h => h(AppLayout),
 });
 
 export { app };
