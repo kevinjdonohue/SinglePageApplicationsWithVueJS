@@ -10,6 +10,8 @@ const indexHTML = (() => {
 // serves the static module of express to serve the statics from the dist folder
 app.use("/dist", express.static(path.resolve(__dirname, "./dist")));
 
+require("./build/dev-server")(app);
+
 app.get("*", (request, response) => {
   response.write(indexHTML);
   response.end();
