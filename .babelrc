@@ -1,12 +1,15 @@
 {
   "presets": [
+    "stage-2",
     [
-      "es2015",
+      "env",
       {
-        "modules": false
+        "targets": {
+          "browsers": ["last 2 versions"]
+        },
+        "debug": false
       }
-    ],
-    "stage-2"
+    ]
   ],
   "ignore": ["node_modules/*"]
 }
