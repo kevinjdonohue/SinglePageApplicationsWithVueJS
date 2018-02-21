@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/kevinjdonohue/SinglePageApplicationsWithVueJS#readme",
   "dependencies": {
+    "bulma": "^0.6.2",
     "express": "^4.16.2",
     "vue": "^2.5.13"
   },
