@@ -1,6 +1,5 @@
 const path = require("path");
 
-// TODO:  resolve block below is a temporary solution; should use .vue files (components) instead
 const config = {
   entry: {
     app: path.resolve(__dirname, "../src/client-entry.js")
@@ -15,7 +14,11 @@ const config = {
       },
       {
         test: /\.vue$/,
-        loader: "vue-loader"
+        loader: "vue-loader",
+        options: {
+          css: "css-loader",
+          scss: "css-loader|sass-loader"
+        }
       },
       {
         test: /\.js$/,
