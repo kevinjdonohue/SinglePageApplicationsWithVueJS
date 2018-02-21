@@ -18,8 +18,21 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      posts: [
+        { id: 1, title: 'PWA Stats', content: 'A community-driven list of stats and news related to...' },
+        { id: 2, title: 'PWA Stats', content: 'A community-driven list of stats and news related to...' },
+        { id: 3, title: 'PWA Stats', content: 'A community-driven list of stats and news related to...' },
+        { id: 4, title: 'PWA Stats', content: 'A community-driven list of stats and news related to...' },
+        { id: 5, title: 'PWA Stats', content: 'A community-driven list of stats and news related to...' },
+        { id: 6, title: 'PWA Stats', content: 'A community-driven list of stats and news related to...' }
+      ]
+    };
+  }
+};
 </script>
 <style lang="scss">
-@import "~bulma";
+@import '~bulma';
 </style>
