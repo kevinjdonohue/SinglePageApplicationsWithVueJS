@@ -1,4 +1,4 @@
-/* eslint-disable no-console, import/prefer-default-export */
+/* eslint-disable import/prefer-default-export */
 import Vue from 'vue';
 import AppLayout from './theme/Layout.vue';
 
