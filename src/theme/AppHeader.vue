@@ -1,9 +1,15 @@
 <template>
-  <nav class="nav has-shadow">
-    <div class="container">
-      <a href="/">
+  <nav class="navbar is-light">
+    <div class="navbar-brand">
+      <router-link to="/">
         <img src="http://bit.ly/vue-img" alt="Vue SPA" />
-      </a>
+      </router-link>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <router-link class="navbar-item is-tab" to="/">Home</router-link>
+        <router-link class="navbar-item is-tab" to="/login">Login</router-link>
+      </div>
     </div>
   </nav>
 </template>
